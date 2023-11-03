@@ -1,7 +1,9 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:my_hotel_booking_app/firebase_options.dart';
 import 'core/app_export.dart';
 import 'package:my_hotel_booking_app/theme/theme_helper.dart';
 import 'package:my_hotel_booking_app/routes/app_routes.dart';
@@ -11,6 +13,7 @@ void main() {
   SystemChrome.setPreferredOrientations([
     DeviceOrientation.portraitUp,
   ]);
+  Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
 
   ///Please update theme as per your need if required.
   ThemeHelper().changeTheme('primary');

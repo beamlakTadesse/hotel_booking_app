@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "108349910004",
+    "project_id": "flutter-hotel-booking-app",
+    "storage_bucket": "flutter-hotel-booking-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:108349910004:android:23e2715040011de502e7a1",
+        "android_client_info": {
+          "package_name": "com.myhotelbookingapp.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "108349910004-kbdsndvb8fu5qjnglvbj6ecvj015n46p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAspOUrEAd-5P0FspvsOuRafxR6ooDdTTA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "108349910004-kbdsndvb8fu5qjnglvbj6ecvj015n46p.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "108349910004-1s0iuk949p02hogpr7phm96u86dllg2h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.myhotelbookingapp.app"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:108349910004:android:4466bea8d23d848e02e7a1",
+        "android_client_info": {
+          "package_name": "com.sangvaleap.hotel_booking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "108349910004-kbdsndvb8fu5qjnglvbj6ecvj015n46p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAspOUrEAd-5P0FspvsOuRafxR6ooDdTTA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "108349910004-kbdsndvb8fu5qjnglvbj6ecvj015n46p.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "108349910004-1s0iuk949p02hogpr7phm96u86dllg2h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.myhotelbookingapp.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

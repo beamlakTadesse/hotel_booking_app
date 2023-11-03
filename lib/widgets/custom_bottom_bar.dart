@@ -29,7 +29,7 @@ class CustomBottomBarState extends State<CustomBottomBar> {
     BottomMenuModel(
       icon: ImageConstant.imgNavBooking,
       activeIcon: ImageConstant.imgNavBooking,
-      title: "lbl_booking".tr,
+      title: "Rentals",
       type: BottomBarEnum.Booking,
     ),
     BottomMenuModel(

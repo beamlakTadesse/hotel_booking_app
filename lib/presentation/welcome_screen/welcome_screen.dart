@@ -1,11 +1,25 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:my_hotel_booking_app/core/app_export.dart';
+import 'package:my_hotel_booking_app/presentation/onboarding_one_screen/onboarding_one_screen.dart';
 
-class WelcomeScreen extends StatelessWidget {
-  const WelcomeScreen({Key? key})
-      : super(
-          key: key,
-        );
+class WelcomeScreen extends StatefulWidget {
+  const WelcomeScreen({Key? key}) : super(key: key);
+
+  @override
+  State<WelcomeScreen> createState() => _WelcomeScreenState();
+}
+
+class _WelcomeScreenState extends State<WelcomeScreen> {
+  @override
+  void initState() {
+    Timer(
+        Duration(seconds: 3),
+        () => Navigator.pushReplacement(context,
+            MaterialPageRoute(builder: (context) => OnboardingOneScreen())));
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {
